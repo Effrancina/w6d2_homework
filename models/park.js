@@ -17,9 +17,13 @@ Park.prototype.removeDinosaur = function (dinosaur) {
 
 Park.prototype.popularDinosaur = function () {
     let mostPopularDinosaur;
-    for (let i=0; i > mostPopularDinosaur || mostPopularDinosaur===None; i===mostPopularDinosaur) {
-        console.log(mostPopularDinosaur);
+    for (let i=0; i > mostPopularDinosaur || mostPopularDinosaur===None; i++) {
+        if (i > mostPopularDinosaur) {
+            i=mostPopularDinosaur;
+        }
+        
     }
+    console.log(mostPopularDinosaur)
 };
 
 
